@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/ics" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/java" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/froyo" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/tests/java" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/eclair" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/ics-mr1" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/honeycomb" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/jellybean" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/gingerbread" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/honeycomb_mr2" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/src/jellybean-mr1" />
+        </SOURCES>
+        <jarDirectory url="file://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
