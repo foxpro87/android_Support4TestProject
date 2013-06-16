@@ -11,10 +11,9 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="Support4Test"
-         >
+        android:label="Support4Test" >
         <activity
-            android:name=".Support4Test"
+            android:name="com.sbwoo.support4test.Support4Test"
             android:label="Support4Test" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,39 +21,60 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".app.FragmentContextMenuSupport"
-                  android:label="Fragment/Context Menu">
+        <activity
+            android:name="com.sbwoo.support4test.app.FragmentContextMenuSupport"
+            android:label="Fragment/Context Menu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".app.FragmentTabsPager"
-                  android:label="Fragment/Fragment Tabs Pager">
+        <activity
+            android:name="com.sbwoo.support4test.app.FragmentTabsPager"
+            android:label="Fragment/Fragment Tabs Pager" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".app.FragmentStackSupport"
-                  android:label="Fragment/Fragment Stack Support">
+        <activity
+            android:name="com.sbwoo.support4test.app.FragmentStackSupport"
+            android:label="Fragment/Fragment Stack Support" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".others.MainActivity"
-                  android:label="Others/Horizontal Scroll View">
+        <activity
+            android:name="com.sbwoo.support4test.others.MainActivity"
+            android:label="Others/Horizontal Scroll View" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".others.ListViewNormal"
+            android:label="Others/ListViewNormal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".others.ListviewActivity"
+            android:label="Others/ListView Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.example.android.supportv4.SUPPORT4_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
